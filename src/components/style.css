@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.page {
+  display: flex;
+}
+
+.detailTable {
+  border-collapse: collapse;
+}
+
+li:nth-child(even) {
+  background-color: lightblue;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background: lightblue;
+}
+
+.category {
+  font-size: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .page {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .categories {
+    width: 40%;
+  }
+  .detail {
+    width: 60%;
+  }
+}

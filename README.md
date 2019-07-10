@@ -1,2 +1,0 @@
-# MenuList
-Created with CodeSandbox
